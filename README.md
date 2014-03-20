@@ -21,8 +21,21 @@ destination directory path)_
 
 You'll also need:
 
-* [xml2rfc v2.4.5 or higher](https://pypi.python.org/pypi/xml2rfc)
-* [kramdown-rfc2629](https://github.com/cabo/kramdown-rfc2629)
+[xml2rfc v2.4.5 or higher](https://pypi.python.org/pypi/xml2rfc), which I
+suggest installing with:
+
+```
+pip install xml2rfc
+```
+
+and also:
+
+[kramdown-rfc2629](https://github.com/cabo/kramdown-rfc2629), which can be
+installed with:
+
+```
+gem install kramdown-rfc2629
+```
 
 ## Usage
 
