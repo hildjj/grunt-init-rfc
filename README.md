@@ -19,6 +19,11 @@ git clone https://github.com/hildjj/grunt-init-rfc.git ~/.grunt-init/rfc
 _(Windows users, see [the documentation][grunt-init] for the correct
 destination directory path)_
 
+You'll also need:
+
+* [xml2rfc v2.4.5 or higher](http://svn.tools.ietf.org/svn/tools/xml2rfc/releases/)
+* [kramdown-rfc2629](https://github.com/cabo/kramdown-rfc2629)
+
 ## Usage
 
 At the command-line, cd into an empty directory, run this command and follow
