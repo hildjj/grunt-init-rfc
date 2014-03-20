@@ -21,7 +21,7 @@ destination directory path)_
 
 You'll also need:
 
-* [xml2rfc v2.4.5 or higher](http://svn.tools.ietf.org/svn/tools/xml2rfc/releases/)
+* [xml2rfc v2.4.5 or higher](https://pypi.python.org/pypi/xml2rfc)
 * [kramdown-rfc2629](https://github.com/cabo/kramdown-rfc2629)
 
 ## Usage
