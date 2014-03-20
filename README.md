@@ -36,3 +36,14 @@ grunt-init rfc
 _Note that this template will generate files in the current directory, so be
 sure to change to a new directory first if you don't want to overwrite existing
 files._
+
+Answer a couple of questions.  Then start the server:
+
+```
+grunt server
+```
+
+Your default web browser will pop up with a skeleton RFC.  Edit the draft-*.md file in
+your favorite text editor.  When you save the file... look at your browser
+window.
+
