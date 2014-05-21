@@ -52,13 +52,11 @@ exports.template = function(grunt, init, done) {
     props.author_fi = props.author_first[0];
     props.date = new Date();
     props.devDependencies = {
+      "grunt": "^0.4.4",
       "grunt-contrib-watch": "^0.6.0",
       "grunt-express": "^1.2.1",
-      "matchdep": "^0.3.0",
-      "grunt-kramdown-rfc2629": "0.0.1"
-    };
-    props.peerDependencies = {
-      'grunt': "^0.4.4",
+      "grunt-kramdown-rfc2629": "0.0.1",
+      "jit-grunt": "^0.3.2"
     };
 
     // Files to copy (and process).

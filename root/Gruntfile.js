@@ -1,6 +1,6 @@
 module.exports = function(grunt) {
   // Load Grunt tasks declared in the package.json file
-  require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+  require('jit-grunt')(grunt);
 
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
@@ -8,7 +8,7 @@ module.exports = function(grunt) {
       all: {
         options: {
           port: 9000,
-          hostname: "0.0.0.0",
+          hostname: "localhost",
           bases: ['output'],
           livereload: true,
           open: 'http://localhost:<%= express.all.options.port%>/{%= name %}.html'
